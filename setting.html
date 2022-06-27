@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page hero section</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="plc">
+            <div class="plro">
+
+            </div>
+            <h1>Checking...</h1>
+        </div>
+    </div>
+    <div class="bdcontainer">
+       <div class="side sideblack"></div>
+        <div class="dashcontainer">
+            <div class="side dashside">
+               <div class="sideinner">
+                <h2><a href="index.html">BrandName</a> </h2>
+                <ul>
+                    <li><a class="" href="dashboard.html"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+                    <li><a href="#" class="active"><i class="fa fa-gear"></i> Setting</a></li>
+                </ul>
+                <a class="button" href="#" id="logout">Logout</a>
+               </div>
+            </div>
+            <div class="dashmain">
+                <i id="dsmenu" class="fa fa-bars"></i>
+                <div class="setting "  >
+                    <div class="setting">
+                        <h2 class="settingtitle">
+                            Setting
+                        </h2>
+                        <div class="setting">
+                            <div class="sth">
+                                <a class="stb stbact" id="ep" href="#"> <i class="fa fa-edit"></i>Edit Profile </a>
+                                <a class="stb" id="cp" href="#"><i class="fa fa-key"></i> Change login detail</a>
+                            </div>
+                           <form action="" class="authform">
+                            <div class="profiledata" id="epd">
+                                <label for="pdf">
+                                    <img id="pdi"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCvIQEdbJs-ZGwXXa5GRQqd8qDGlQaUEaolA&usqp=CAU"
+                                    alt="" class="photo">
+                                    <input id="pdf" type="file" accept="image/*">
+                                </label>
+                                <span class="pdn">
+                                    <label for="name">Name</label>
+                                    <br>
+                                    <input type="text" value="" placeholder="Fetching" class="pdnname" id="pdn"/>
+    
+                                </span>
+                                <span class="pde">
+                                    <label for="pdag">Age</label>
+                                    <br>
+                                    <input type="text" class="pdeemail" id="pdag" value="" placeholder="Fetching.." />
+                                </span>
+                                <span class="pdad">
+                                    <label for="pdad">Adress</label>
+                                    <br>
+                                    <input type="text" class="pdadress" id="pdad" value="" placeholder="Fetching.." />
+                                </span>
+                              
+                                
+                                <button class="button" id="savest">Save </button>
+                               
+                                
+                            </div>
+                           
+                           </form>
+
+                            <div id="cpd">
+                                <div class="profiledata">
+                                    
+                                       <form action="" class="authform">
+                                        <span>
+                                            <label for="pde">Email</label>
+                                            <br>
+                                                <input type="text" id="pdpe" value="Fetching..">
+                                               
+                                        </span>
+                                        <br>
+                                        <br>
+                                        <span>
+                                            <label for="pde">password</label>
+                                            <br>
+                                                <input type="password" id="pdps" placeholder="Enter password here">
+                                               
+                                        </span>
+                                        <br>
+                                        <button id="savelst" class="button">save</button>
+                                       </form>
+                                        <br>
+                                        <br>
+                                        
+                                        
+                                       
+                                    
+                                </div>
+                            </div>
+                            <span class="afterms"></span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./auth/script/script.js"></script>
+    <script type="module" src="./auth/script/firebase.js"></script>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

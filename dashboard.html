@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page hero section</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="plc">
+            <div class="plro">
+
+            </div>
+            <h1>Checking...</h1>
+        </div>
+    </div>
+    <div class="bdcontainer">
+        <div class="dashcontainer">
+           <div class="side sideblack">
+           
+           </div>
+           <div class="side dashside">
+            <div class="sideinner">
+                <h2><a href="index.html">BrandName</a> </h2>
+            <ul>
+                <li><a class="active" href="#"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+                <li><a href="setting.html"><i class="fa fa-gear"></i> Setting</a></li>
+            </ul>
+            <a class="button" href="#" id="logout">Logout</a>
+            </div>
+        </div>
+            <div class="dashmain">
+                <div class="dashboard">
+                    <i id="dsmenu" class="fa fa-bars"></i>
+                    <div class="profile">
+                        <h2 class="profiletitle">
+                            Profile
+                        </h2>
+                        <div class="profiledata">
+                            <img id="pdi"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCvIQEdbJs-ZGwXXa5GRQqd8qDGlQaUEaolA&usqp=CAU"
+                                alt="" class="photo">
+                            <span class="pdn">
+                                <label for="name">Name</label>
+                                <h5 class="pdnname" id="pdn">Fetching..</h5>
+
+                            </span>
+                            <span class="pdag">
+                                <label for="pdag">Age</label>
+                                <h5 class="pdage" id="pdag">Feching..</h5>
+
+                            </span>
+                            <span class="pde">
+                                <label for="email">Email</label>
+                                <h5 class="pdeemail" id="pde">Fetching..</h5>
+                            </span>
+                            <span class="pdev">
+                                <label for="emailv">Email Verification</label>
+                                <h5 class="pdeemail" id="pdev">Fetching..</h5>
+                            </span>
+                            <span class="pde">
+                                <label for="pdu">Uid</label>
+                                <h5 class="pduuid" id="pdu">Fetching..</h5>
+                            </span>
+                            <span class="pdad">
+                                <label for="pdad">Adress</label>
+                                <h5 class="pdadress" id="pdad">Fetching..</h5>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="emailvr">
+                       
+                        <p> <i class="fa fa-exclamation-circle"></i>Your email is not verified,send verification email to verify</p>
+                        <a href="#" class="button"  id="sendve">Send email</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./script/script.js"></script>
+    <script type="module" src="./auth/script/firebase.js"></script>
+</body>
+
+</html>
